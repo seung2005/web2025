@@ -57,6 +57,7 @@ main {
 section {
   padding: 2rem;
   border-bottom: 1px solid #ddd;
+  text-align: center;
 }
 
 section img {
@@ -64,6 +65,6 @@ section img {
   max-width: 500px;
   height: auto;
   display: block;
-  margin-top: 1rem;
+  margin: 1rem auto;
 }
 
