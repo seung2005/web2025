@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>대한민국 바다 여행</title>
+  <title>KOREA OCEAN</title>
   <link rel="stylesheet" href="css/teamproject.css" />
   <script>
-    function toggleContent(city) {
+    function showContent(city) {
+      var sections = document.querySelectorAll('section');
+      sections.forEach(function(section) {
+        section.style.display = "none";
+      });
       var content = document.getElementById(city);
-      if (content.style.display === "none" || content.style.display === "") {
-        content.style.display = "block";
-      } else {
-        content.style.display = "none";
-      }
+      content.style.display = "block";
     }
   </script>
 </head>
@@ -21,11 +21,11 @@
     <h1>KOREA OCEAN</h1>
     <nav>
       <ul>
-        <li><button onclick="toggleContent('incheon')">인천</button></li>
-        <li><button onclick="toggleContent('yeosu')">여수</button></li>
-        <li><button onclick="toggleContent('busan')">부산</button></li>
-        <li><button onclick="toggleContent('jeju')">제주</button></li>
-        <li><button onclick="toggleContent('gangneung')">강릉</button></li>
+        <li><button onclick="showContent('incheon')">인천</button></li>
+        <li><button onclick="showContent('yeosu')">여수</button></li>
+        <li><button onclick="showContent('busan')">부산</button></li>
+        <li><button onclick="showContent('jeju')">제주</button></li>
+        <li><button onclick="showContent('gangneung')">강릉</button></li>
       </ul>
     </nav>
   </header>
@@ -46,28 +46,28 @@
       <p>인천의 바다에서는 다양한 어종이 서식하고 있습니다. 대표적인 서식 물고기로는 <strong>농어, 숭어, 조피볼락</strong> 등이 있으며, 갯벌에서는 <strong>조개, 게, 새우</strong>도 많이 잡힙니다.</p>
     </section>
 
-    <section id="gangneung" style="display: none;">
-      <h2>강릉</h2>
-      <img src="images/gangneung.jpg" alt="강릉" class="city-image">
+     <section id="gangneung" style="display: none;">
+      <h2>강릉 바다</h2>
+      <img src="images/gangneung.jpg" alt="강릉 바다" class="city-image">
       <p>강릉은 동해안에 위치해 있으며, 깨끗한 바다와 풍부한 해양 생물들이 서식하는 곳입니다.</p>
     </section>
 
     <section id="busan" style="display: none;">
-      <h2>부산</h2>
-      <img src="images/busan.jpg" alt="부산" class="city-image">
+      <h2>부산 바다</h2>
+      <img src="images/busan.jpg" alt="부산 바다" class="city-image">
       <p>부산은 동해안에 위치해 있으며, 맑고 푸른 바다와 기분 좋은 파도가 특징입니다.</p>
     </section>
 
-    <section id="jeju" style="display: none;">
-      <h2>제주 바다</h2>
-      <img src="images/jeju.jpg" alt="제주" class="city-image">
-      <p>제주는 맑고 청정한 바다로 유명하며, 다양한 해양 스포츠와 해변을 자랑합니다.</p>
+     <section id="yeosu" style="display: none;">
+      <h2>여수 바다</h2>
+      <img src="images/yeosu.jpg" alt="여수 바다" class="city-image">
+      <p>여수는 남해에 위치해 파도가 잔잔하고, 따뜻한 해류가 흐릅니다.</p>
     </section>
 
-   <section id="yeosu" style="display: none;">
-      <h2>여수</h2>
-      <img src="images/yeosu.jpg" alt="여수" class="city-image">
-      <p>여수는 남해에 위치해 파도가 잔잔하고, 따뜻한 해류가 흐릅니다.</p>
+     <section id="jeju" style="display: none;">
+      <h2>제주 바다</h2>
+      <img src="images/jeju.jpg" alt="제주 바다" class="city-image">
+      <p>제주는 맑고 청정한 바다로 유명하며, 다양한 해양 스포츠와 해변을 자랑합니다.</p>
     </section>
 
   </main>
