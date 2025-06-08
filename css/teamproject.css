@@ -1,16 +1,6 @@
-@font-face {
-  font-family: 'andong-wolyeonggyo';
-  src: url('fonts/andong-wolyeonggyo.woff2') format('woff2'),
-       url('fonts/andong-wolyeonggyo.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
 
 body {
-  font-family: andong-wolyeonggyo, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  
+  font-family: 'Nanum Gothic', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f8ff;
