@@ -14,6 +14,12 @@
       var content = document.getElementById(city);
       content.style.display = "block";
     }
+    function showInitial() {
+    var sections = document.querySelectorAll('section');
+    sections.forEach(function(section) {
+      section.style.display = "none";
+    });
+  }
   </script>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet" />
 </head>
