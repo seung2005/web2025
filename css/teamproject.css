@@ -1,5 +1,7 @@
 #guide-message {
-  height: 150px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,11 +11,9 @@
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
   background-color: rgba(0, 77, 102, 0.4);
-  margin-bottom: 2rem;
+  height: 300px;
   border-radius: 15px;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 * {
