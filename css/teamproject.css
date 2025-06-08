@@ -26,12 +26,12 @@ nav ul {
 }
 
 nav ul li button {
-  background-color: #4db8ff;
+  background-color: #D4F4FA;
   color: white;
   padding: 12px 24px;
   font-size: 18px;
   border: none;
-  border-radius: 50px; /* 둥글게 */
+  border-radius: 50px;
   cursor: pointer;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -39,12 +39,12 @@ nav ul li button {
 
 nav ul li button:hover {
   background-color: #1e90ff;
-  transform: translateY(-2px); /* 살짝 떠오르는 느낌 */
+  transform: translateY(-2px);
 }
 
 nav ul li button:active {
   background-color: #007acc;
-  transform: scale(0.96); /* 살짝 눌리는 느낌 */
+  transform: scale(0.96);
 }
 
 section {
