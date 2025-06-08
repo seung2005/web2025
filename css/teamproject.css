@@ -47,6 +47,13 @@ nav ul li button:active {
   transform: scale(0.96);
 }
 
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
 section {
   padding: 2rem;
   border-bottom: 1px solid #ddd;
