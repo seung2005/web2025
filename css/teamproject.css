@@ -68,3 +68,22 @@ section img {
   margin: 1rem auto;
 }
 
+section ul {
+  display: inline-block;
+  text-align: left;
+  margin: 1rem auto;
+  padding-left: 1.2rem;
+}
+
+section li {
+  margin-bottom: 0.8rem;
+}
+
+section h3 {
+  margin-top: 2rem;
+}
+
+section p {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
