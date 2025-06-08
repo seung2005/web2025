@@ -55,12 +55,12 @@ nav ul li button:active {
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
   box-sizing: border-box;
 }
 
 section {
-  padding: 2rem;
+  padding: 1.5rem 2rem 2rem 2rem;
   border-bottom: 1px solid #ddd;
   text-align: center;
 }
