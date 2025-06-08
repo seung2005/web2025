@@ -12,17 +12,39 @@ header {
   text-align: center;
 }
 
+nav {
+  padding: 1rem 0;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
-nav a {
+nav ul li button {
+  background-color: #4db8ff;
   color: white;
-  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px; /* 둥글게 */
+  cursor: pointer;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li button:hover {
+  background-color: #1e90ff;
+  transform: translateY(-2px); /* 살짝 떠오르는 느낌 */
+}
+
+nav ul li button:active {
+  background-color: #007acc;
+  transform: scale(0.96); /* 살짝 눌리는 느낌 */
 }
 
 section {
