@@ -1,8 +1,12 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: andong-wolyeonggyo, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  
   margin: 0;
   padding: 0;
   background-color: #f0f8ff;
+  text-align: center;
 }
 
 header {
