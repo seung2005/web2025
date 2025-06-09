@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>Korea Ocean</title>
+  <title>KOREA OCEAN</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .city-image {
@@ -13,10 +13,8 @@
 </head>
 <body class="min-h-screen bg-blue-100 flex flex-col items-center py-10">
 
-  <!-- 메인 타이틀 -->
-  <h1 class="text-5xl font-bold text-center mb-10">Korea Ocean</h1>
+  <h1 class="text-5xl font-bold text-center mb-10">KOREA OCEAN</h1>
 
-  <!-- 버튼 리스트 -->
   <div class="flex flex-wrap justify-center gap-4 mb-10 text-lg font-medium">
     <button onclick="showCity('incheon')" class="hover:underline">인천</button>
     <button onclick="showCity('gangneung')" class="hover:underline">강릉</button>
@@ -25,10 +23,8 @@
     <button onclick="showCity('jeju')" class="hover:underline">제주</button>
   </div>
 
-  <!-- 콘텐츠 -->
   <main class="w-full max-w-4xl px-4 space-y-12">
 
-    <!-- 도시별 Section -->
     <section id="incheon" class="hidden text-center">
       <h2 class="text-3xl font-semibold">인천</h2>
       <img src="images/incheon.jpg" alt="인천" class="city-image mx-auto my-4 max-w-md w-full">
@@ -96,7 +92,6 @@
 
   </main>
 
-  <!-- JS: 버튼 클릭 시 해당 section 표시 -->
   <script>
     function showCity(cityId) {
       const sections = document.querySelectorAll("main section");
